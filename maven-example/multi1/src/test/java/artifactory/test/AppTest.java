@@ -3,7 +3,7 @@ package artifactory.test;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import artifactory.test.Multi1;
+
 
 /**
  * Unit test for simple App.
@@ -35,6 +35,6 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
-        new Multi1().show();
+
     }
 }
