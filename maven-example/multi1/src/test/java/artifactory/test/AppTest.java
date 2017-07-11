@@ -3,7 +3,7 @@ package artifactory.test;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import artifactory.test.Mulit1;
+import artifactory.test.Multi1;
 
 /**
  * Unit test for simple App.
