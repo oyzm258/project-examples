@@ -4,12 +4,13 @@
     <parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>multi</artifactId>
-        <version>6.1-SNAPSHOT</version>
+        <version>6.3</version>
     </parent>
 
     <artifactId>multi3</artifactId>
     <packaging>war</packaging>
     <name>Multi 3</name>
+    <version>6.3</version>
 
     <dependencies>
         <!-- depends on another project (should include transitive) -->
