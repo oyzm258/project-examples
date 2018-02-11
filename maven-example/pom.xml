@@ -62,7 +62,7 @@
                 <configuration>
                     <archive>
                         <addMavenDescriptor>false</addMavenDescriptor>
-                    </archive>
+                    </archive> 
                 </configuration>
             </plugin>
         </plugins>
