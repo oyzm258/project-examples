@@ -6,7 +6,7 @@
     <version>6.4.1-SNAPSHOT</version>
     <packaging>pom</packaging>   
     <name>Simple Multi Modules Build1</name>
-
+ 
     <modules>
         <module>multi1</module>
         <module>multi2</module>
