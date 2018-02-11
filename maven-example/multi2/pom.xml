@@ -9,7 +9,7 @@
 
     <properties>
         <daversion>${project.parent.version}</daversion>
-    </properties>
+    </properties> 
 
     <artifactId>multi2</artifactId>
     <packaging>jar</packaging>
