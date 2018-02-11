@@ -10,7 +10,6 @@
     <artifactId>multi3</artifactId>
     <packaging>war</packaging>
     <name>Multi 3</name>
-    <version>6.4.1-SNAPSHOT</version>
 
     <dependencies>
         <!-- depends on another project (should include transitive) -->
