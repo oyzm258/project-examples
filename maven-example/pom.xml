@@ -67,4 +67,55 @@
             </plugin>
         </plugins>
     </build>
+
+
+    <profiles>
+        <profile>
+            <repositories>
+                <repository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>maven-releases-virtual</name>
+                    <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+                </repository>
+                <repository>
+                    <snapshots />
+                    <id>snapshots</id>
+                    <name>maven-releases-virtual</name>
+                    <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+                </repository>
+            </repositories>
+            <pluginRepositories>
+                <pluginRepository>
+                    <snapshots>
+                        <enabled>false</enabled>
+                    </snapshots>
+                    <id>central</id>
+                    <name>maven-releases-virtual</name>
+                    <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+                </pluginRepository>
+                <pluginRepository>
+                    <snapshots />
+                    <id>snapshots</id>
+                    <name>maven-releases-virtual</name>
+                    <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+                </pluginRepository>
+            </pluginRepositories>
+            <id>artifactory</id>
+        </profile>
+    </profiles>
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>for-demo-releases</name>
+            <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>for-demo-snapshots</name>
+            <url>http://demo.jfrogchina.com:80/artifactory/maven-releases-virtual</url>
+        </snapshotRepository>
+    </distributionManagement>
 </project>
