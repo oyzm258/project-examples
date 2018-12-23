@@ -10,7 +10,11 @@
     <artifactId>multi3</artifactId>
     <packaging>war</packaging>
     <name>Multi 3</name>
-
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    </properties>
     <dependencies>
         <!-- depends on another project (should include transitive) -->
         <dependency>
