@@ -9,6 +9,9 @@
 
     <properties>
         <daversion>${project.parent.version}</daversion>
+        
+        <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
 
     <artifactId>multi2</artifactId>
