@@ -8,6 +8,7 @@
     </parent>
 
     <artifactId>multi1</artifactId>
+    <version>1.0.1.${buildVersion}</version>
     <packaging>jar</packaging>
     <name>Multi 1</name>
     
