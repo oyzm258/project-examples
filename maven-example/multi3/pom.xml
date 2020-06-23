@@ -4,13 +4,13 @@
     <parent>
         <groupId>org.jfrog.test</groupId>
         <artifactId>multi</artifactId>
-        <version>1.7.272</version>
+        <version>1.0.1.42</version>
     </parent>
 
     <artifactId>multi3</artifactId>
     <packaging>war</packaging>
     <name>Multi 3</name>
-    <version>1.0.3.${buildVersion}</version>
+    <version>1.0.1.42</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
